@@ -25,6 +25,8 @@ public class App {
 
         System.out.println(ic.getCredential("admin"));
 
+        ic.welcomeUser("NicoLas");
+
 
         //2.静态方法
         String message = "Hello, world!";
@@ -107,6 +109,9 @@ public class App {
             return i1 > i2 ? i1 : i2;
         };
         System.out.println(binary.apply(2,6));
+
+
+
     }
 
     

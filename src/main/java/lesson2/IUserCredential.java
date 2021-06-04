@@ -25,4 +25,7 @@ public interface IUserCredential {
         }
     }
 
+    default void welcomeUser (String username) {
+        System.out.println("Welcome to the programing my dear " + username + " !");
+    }
 }
